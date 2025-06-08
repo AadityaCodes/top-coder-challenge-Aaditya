@@ -2,7 +2,7 @@ import joblib
 import sys
 
 # Load the trained model
-model = joblib.load("rf_model_2.joblib")
+model = joblib.load("rf_model.joblib")
 
 def predict(trip_duration_days, miles_traveled, total_receipts_amount):
     """Predict reimbursement amount using the Random Forest model."""
